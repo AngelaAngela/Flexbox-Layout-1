@@ -1,109 +1,55 @@
+
 * {
-		 border: 2px solid cornflowerblue;
-		 margin: 5px;
-		 padding: 3px;
+	border: 2px solid cornflowerblue;
+	margin: 5px;
+	padding: 3px;
 }
 
-
+/*body takes up full viewport and extends all the way to the edges */
 html, body {
-		 margin: 0;
-		 padding: 0;
-		 border: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+
 }
 
 body {
-		 height: 100vh;
+	height: 100vh;
 }
 
-
-/* HEADER START ------------------------------------*/
-
-header  {
-		 display: flex;
-		 justify-content: space-between;
-	}
-
-
-#navbarhref
-
-	  {
-		 padding: 10px;
-		 margin-top: 30px;
-		 height: 15px;
-		 width: 17%;
-	}
-
+#headerdiv {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
 h1 {
-		
-		width: 700px;
-	}
+	width: 50%;
+}
+
+.nav {
+	height:25px;
 
 	
-/* HEADER END ----------------------------*/
-	
+}
 
+#maindiv {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+}
 
+#main {
+	width: 75%;
+	height: 200px;
+}
 
+#side {
+	width: 25%;
+}
 
-/* MAIN START-----------------------------*/
-
-
-
-	main {
-	
-		display: flex;
-		flex-direction: row;
-		margin-top: 25px;
-	
-	}
-
-	p {
-		border: 2px solid cornflowerblue;
-		width: 75%;
-		margin-left: 20px;
-
-	}
-
-	#sidebar {
-		width: 25%;
-		height: 200px;
-		margin-right: 20px;
-	}
-
-/* MAIN END---------------------------------*/
-
-
-
-
-/* FOOTER START-----------------------------*/
-
-
-
-	footer {
-		
-		margin-top: 20px;
-		display: flex;
-		justify-content: space-between;
-	}
-
-	
-	#footerhrefdiv {
-
-		display: flex;
-		justify-content: flex-end;
-	}
-	
-	
-	span {
-		display: flex;
-		justify-content: flex-start;
-	}
-	
-		
-
-
-
-
-
-
+#footerdiv {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+}
